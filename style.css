@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #1877f2;
+  color: white;
+  cursor: pointer;
+}
+
+.google-btn {
+  background: #db4437;
+}
+
+.phone-btn {
+  background: #34a853;
+}
+
+.separator {
+  margin: 15px 0;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  line-height: 0.1em;
+}
+
+.separator span {
+  background: #fff;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #666;
+}
