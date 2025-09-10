@@ -8,8 +8,8 @@ const firebaseConfig = {
   projectId: "login-2bd71",
   storageBucket: "login-2bd71.firebasestorage.app",
   messagingSenderId: "685912637469",
-  appId: "1:685912637469:web:cb5023e5e89338750506f4",
-  measurementId: "G-92Z5R7RKSY"
+  appId: "1:685912637469:web:f36397f31a410fa00506f4",
+  measurementId: "G-Y29TFCVZ7V"
 };
 
 // Initialize Firebase
