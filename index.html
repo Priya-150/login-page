@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="firebase.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+
+    <!-- Email Login -->
+    <form id="loginForm">
+      <input type="email" id="loginEmail" placeholder="Email" required />
+      <input type="password" id="loginPassword" placeholder="Password" required />
+      <button type="submit">Login with Email</button>
+    </form>
+
+    <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+
+    <div class="separator"><span>OR</span></div>
+
+    <!-- Google Login -->
+    <button id="googleLogin" class="google-btn">Login with Google</button>
+
+    <!-- Phone Login -->
+    <button id="phoneLogin" class="phone-btn">Login with Phone</button>
+  </div>
+</body>
+</html>
